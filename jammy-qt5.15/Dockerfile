@@ -88,6 +88,7 @@ RUN set -x \
         qt6-base-dev-tools \
         qt6-tools-dev-tools \
         qt6-l10n-tools \
+        qt6-wayland \
         libqt6svg6-dev \
         libqt6websockets6-dev \
         xclip \

@@ -90,6 +90,7 @@ RUN set -x \
         qt6-base-dev-tools \
         qt6-svg-dev \
         qt6-websockets-dev \
+        qt6-wayland \
         xclip \
         xvfb \
         zlib1g-dev \
