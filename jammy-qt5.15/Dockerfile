@@ -119,7 +119,7 @@ ENV LC_ALL en_US.UTF-8
 RUN set -x \
     && curl -fL "https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage" > /usr/local/bin/linuxdeploy \
     && curl -fL "https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-x86_64.AppImage" > /usr/local/bin/linuxdeploy-plugin-qt \
-    && curl -fL "https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage" > /usr/local/bin/appimagetool \
+    && curl -fL "https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage" > /usr/local/bin/appimagetool \
     && curl -fL https://uploader.codecov.io/latest/linux/codecov > /usr/local/bin/codecov \
     && chmod +x /usr/local/bin/linuxdeploy \
     && chmod +x /usr/local/bin/linuxdeploy-plugin-qt \
